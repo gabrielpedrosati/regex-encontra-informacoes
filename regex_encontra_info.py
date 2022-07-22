@@ -37,7 +37,6 @@ cpf_regex = re.compile(r'''(
 emails = []
 telefones = []
 cpfs = []
-informacoes = {'telefones': '', 'emails': '', 'cpfs': ''}
 
 # Abrindo arquivo
 
