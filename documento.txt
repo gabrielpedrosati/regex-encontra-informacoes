@@ -1,0 +1,16 @@
+Nome: João Pessoa da Silva
+Cpf: 999.999.999-90
+email: joao.silva@email.com
+telefone: (83) 99999-9999
+Nome: Arlindo da Figueira
+Cpf: 000.000.111-22
+email: arlindo.figueira@email.com
+Telefone: (21) 98888-8888
+Nome: Pedro Sampaio Pessoa
+Cpf: 00.000.000-11
+email: ppedro@email.com.br
+Telefone: 11 4444-4444
+Nome: Gustavo Acioly Miranda
+Cpf: 111.111.111-11
+email: gugu@email.com
+telefone: 1234-5679
