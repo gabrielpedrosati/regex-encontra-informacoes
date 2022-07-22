@@ -7,7 +7,7 @@ import re
 phone_regex = re.compile(r'''(
 (\d{2}|\(\d{2}\))? #Códio de área (opcional)
 (\s)? #Separador espaço
-(\d)? #Dígito 9 (opcional)
+([9])? #Dígito 9 (opcional)
 (\d{4}) #Primeiros 4 dígitos
 (\s|-|\.) # Separador
 (\d{4}) #Últimos 4 dígitos
@@ -40,7 +40,7 @@ cpfs = []
 
 # Abrindo arquivo
 
-with open(r'C:\Users\DELL\Desktop\documento.txt', 'r') as file:
+with open(r'C:\Users\DELL\Documents\Dev\repositorio_python_github\documento.txt', 'r') as file:
 
     # Pegando os telefones
     for item in phone_regex.findall(file.read()):
@@ -57,3 +57,7 @@ with open(r'C:\Users\DELL\Desktop\documento.txt', 'r') as file:
     # Pegando o cpf
     for item in cpf_regex.findall(file.read()):
         cpfs.append(item[0])
+
+print('Telefones encontrados:' + str(telefones) + '\n')
+print('E-mails encontrados:' + str(emails) + '\n')
+print('CPFs encontrados:' + str(cpfs) + '\n')
